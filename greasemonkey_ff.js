@@ -28,6 +28,6 @@ theKid.innerHTML = `<div style="padding-bottom: 6px;"><ul class="nav nav-tabs na
 theParent.appendChild(theKid);
 theParent.insertBefore(theKid, theParent.firstChild);
 var theRep = `
-<a href="#debug_page">Debug</a> • <a href="#ant_switch">Ant switch</a> • <a href="#rf_mmw">Ant mod</a> • <a href="#temp_status">Temp control</a> • <a href="#bsp_tc_settings">TC Settings</a> • <a href="#tr069config">TR069</a></div>
+<a href="#debug_page">Debug</a> • <a href="#ant_switch">Ant switch</a> • <a href="#rf_mmw">Ant mod</a> • <a href="#temp_status">Temp control</a> • <a href="#bsp_tc_settings">TC settings</a> • <a href="#tr069config">TR069</a></div>
                     </a>`;
 document.getElementById('footer').innerHTML = theRep;
